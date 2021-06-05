@@ -1,0 +1,39 @@
+User:
+  uid: String
+  name: String
+  email: String
+  username: String
+  status: String
+  state: Int
+  profilePhoto: String
+
+Message:
+  senId: String
+  recId: String
+  type: String
+  message: String
+  timestamp: Timestamp
+  photoUrl: String
+
+Call:
+  callerId : String
+  callerName : String
+  callerPic : String
+  recId : String
+  recName : String
+  recPic : String
+  channelId : String
+  hasDialled : Boolean
+
+Contact:
+  uid: String
+  addedOn: Timestamp
+
+Log:
+  logId: Int
+  callerName: String
+  callerPic: String
+  recName: String
+  recPic: String
+  callStatus: String
+  timestamp: String

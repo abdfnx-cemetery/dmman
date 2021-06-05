@@ -1,0 +1,40 @@
+call:
+  senId:
+    - caller_id
+    - caller_name
+    - caller_pic
+    - channel_id
+    - has_dialled
+    - recId
+    - recName
+    - recPic
+  
+  recId:
+    - caller_id
+    - caller_name
+    - caller_pic
+    - channel_id
+    - has_dialled
+    - recId
+    - recName
+    - recPic
+
+users:
+  uid:
+    - email
+    - name
+    - profile_photo
+    - state
+    - status
+    - uid
+    - username
+
+messages:
+  senId:
+    recId:
+      msgId:
+         - message
+         - recId
+         - senId
+         - timestamp
+         - type
