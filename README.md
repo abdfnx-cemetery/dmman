@@ -5,11 +5,11 @@
 ## Setup
 
 ```sh
-❯ flutter pub get
+flutter pub get
 ```
 
 ## Run
 
 ```sh
-❯ flutter run
+flutter run
 ```
